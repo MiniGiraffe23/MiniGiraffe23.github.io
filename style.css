@@ -1,13 +1,17 @@
 body {
-	background-color: black;
-	color: white;
+	background-color: #f9f6db;
+	color: black;
 	font-family: "Comic Sans MS", Comic;
 	font-size: 1.1em;
+	padding: 20px 20px 50px 20px;
+
 }
 
 h1 {
 	font-weight: bold;
 	font-size: 2.5em; 
 	font-family: impact; 
+	margin-bottom: 20px;
+	margin-top: 20px;
 }
 
