@@ -1,9 +1,10 @@
 body {
-	background-color: #f9f6db;
-	color: black;
+	background-color: black;
+	color: white;
 	font-family: "Comic Sans MS", Comic;
 	font-size: 1.1em;
-	padding: 20px 20px 50px 20px;
+	padding: 20px 20px 50px 30px;
+	max-width: 1400px;
 
 }
 
@@ -13,5 +14,53 @@ h1 {
 	font-family: impact; 
 	margin-bottom: 20px;
 	margin-top: 20px;
+}
+
+h3 {
+	font-weight: bold;
+	font-style: oblique;
+}
+
+#ordered li {
+	list-style: arabic-indic;
+}
+
+figure {
+	float: left;
+	padding: 5px;
+	border: 5px dotted white;
+}
+figcaption {
+
+	font-size: 90%;
+	text-align: left;
+}
+
+.content {
+	padding-left: 20px;
+	margin-left: 30px;
+	padding-top: 50px;
+}
+
+ul li{ 
+	list-style: square;
+}
+
+footer {
+	text-align: center;
+	padding-top: 45px;
+}
+
+#background {
+	background-image: url("Images/background-image-5.jpg")
+
+}
+
+.link {
+	color: white;
+}
+
+.link:hover {
+	color: red;
 }
 
